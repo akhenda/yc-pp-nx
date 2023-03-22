@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@yc-pp-nx/hello": ["packages/hello/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
