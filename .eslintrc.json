@@ -2,6 +2,7 @@
   "root": true,
   "ignorePatterns": ["**/*"],
   "plugins": ["@nrwl/nx"],
+  "extends": ["heimdall"],
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
@@ -33,9 +34,15 @@
     },
     {
       "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx"],
+      "extends": ["heimdall/tests"],
       "env": {
         "jest": true
       },
+      "rules": {}
+    },
+    {
+      "files": ["*.jsx", "*.tsx"],
+      "extends": ["heimdall/react"],
       "rules": {}
     }
   ]
