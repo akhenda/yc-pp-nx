@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@yc-pp-nx/cart": ["packages/cart/src/index.ts"],
       "@yc-pp-nx/hello": ["packages/hello/src/index.ts"]
     }
   },
