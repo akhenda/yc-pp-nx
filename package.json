@@ -29,7 +29,7 @@
     "@typescript-eslint/parser": "5.56.0",
     "commitizen": "^4.3.0",
     "eslint": "~8.36.0",
-    "eslint-config-heimdall": "1.6.0",
+    "eslint-config-heimdall": "2.1.2",
     "eslint-config-prettier": "8.8.0",
     "git-cz": "^4.9.0",
     "husky": "^8.0.0",
